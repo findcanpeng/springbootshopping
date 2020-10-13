@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-shopping
+  datasource:
+    url: jdbc:mysql:///crud
+    username: root
+    password: 548658
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: mapper/*Mapper.xml
+
